@@ -8,3 +8,6 @@ YOLOR is a state-of-the-art machine learning algorithm for object detection, dif
 YOLOR is specifically for object detection, rather than other machine learning use cases such as object identification or analysis. This is because object detection is focused around the general identifiers which make the object fall under a certain category or class. In contrast, other types of machine learning use cases require more exact processes. Object identification requires the machine learning model to be attuned to the range of nuances that would constitute objects from each other.
 
 For example, object analysis is often used for medical purposes, where classic object detection algorithms made for differentiating cars, and people would be ineffective.
+
+YOLOR for Object Detection https://github.com/WongKinYiu/yolor
+
