@@ -11,3 +11,8 @@ For example, object analysis is often used for medical purposes, where classic o
 
 YOLOR for Object Detection https://github.com/WongKinYiu/yolor
 
+YOLOR performance and precision
+The new YOLOR algorithm aims to accomplish tasks using a fraction of predicted additional costs for comparative algorithms. Hence, YOLOR is a unified network that can process implicit and explicit knowledge together and produce a general representation that is refined because of that methodology.
+
+In combination with state-of-the-art methods, the YOLOR achieved comparable object detection accuracy as the Scaled YOLOv4, while the inference speed was increased by 88%. This makes YOLOR one of the fastest object detection algorithms in modern computer vision. On the MS COCO dataset, the mean average precision of YOLOR is 3.8% higher compared to the PP-YOLOv2, at the same inference speed.
+
