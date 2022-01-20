@@ -19,4 +19,4 @@ In combination with state-of-the-art methods, the YOLOR achieved comparable obje
 
 ![image](https://user-images.githubusercontent.com/50706192/150343624-d8839de3-5404-4dd3-b9cb-b96bd1a2ba85.png)
 
-The YOLO-R research paper:https://arxiv.org/pdf/2105.04206v1.pdf
+##### The YOLO-R research paper:https://arxiv.org/pdf/2105.04206v1.pdf
