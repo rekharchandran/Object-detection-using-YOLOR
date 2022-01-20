@@ -17,3 +17,4 @@ The new YOLOR algorithm aims to accomplish tasks using a fraction of predicted a
 
 In combination with state-of-the-art methods, the YOLOR achieved comparable object detection accuracy as the Scaled YOLOv4, while the inference speed was increased by 88%. This makes YOLOR one of the fastest object detection algorithms in modern computer vision. On the MS COCO dataset, the mean average precision of YOLOR is 3.8% higher compared to the PP-YOLOv2, at the same inference speed.
 
+![image](https://user-images.githubusercontent.com/50706192/150343624-d8839de3-5404-4dd3-b9cb-b96bd1a2ba85.png)
