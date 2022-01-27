@@ -61,10 +61,26 @@ pip install -r requirements-gpu.txt
 # Install Mish CUDA
 #!git clone https://github.com/JunnYu/mish-cuda
 %cd mish-cuda
+!git reset --hard 6f38976064cbcc4782f4212d7c0c5f6dd5e315a8
+!python setup.py build install
+%cd ..
 
-#### Step3
+#### Step4
 
-Step 3 - Run on Images
+# Install PyTorch Wavelets
+#!git clone https://github.com/fbcotter/pytorch_wavelets
+%cd pytorch_wavelets
+!pip install .
+%cd ..
+
+#### Step5
+
+Preprocess training and testing data
+
+
+
+
+#### Step 6 - Run on Images
 
 GPU
 
