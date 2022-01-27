@@ -22,3 +22,41 @@ In combination with state-of-the-art methods, the YOLOR achieved comparable obje
 ![image](https://user-images.githubusercontent.com/50706192/150343624-d8839de3-5404-4dd3-b9cb-b96bd1a2ba85.png)
 
 ##### The YOLO-R research paper:https://arxiv.org/pdf/2105.04206v1.pdf
+
+### Implementations
+
+#### Step 1 - Install Prerequisites
+
+Ensure that you have the following for both GPU and CPU Installations:
+
+PyCharm Community
+Anaconda
+Ensure that you have the following installed if you are doing the GPU Implementation:
+
+NVIDIA Drivers (Updated to Latest)
+CUDA Toolkit 11.1
+
+#### Step2
+
+Create Conda Environment
+
+conda create --name yolor-gpu
+Python
+conda activate yolor-gpu
+Python
+Install PyTorch, Cython and PyCocoTools
+
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+Python
+pip install -U cython
+Python
+pip install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+Python
+Change Directory to Downloaded Files
+
+pip install -r requirements-gpu.txt 
+
+
+
+
+
