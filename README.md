@@ -1,5 +1,7 @@
 # Traffic sign detection using YOLOR
 
+![1](https://user-images.githubusercontent.com/50706192/151374662-e4544a3c-d408-47f5-8a14-9de85016bcc7.png)
+
 #### YOLOR Object Detection
 
 YOLOR is a state-of-the-art machine learning algorithm for object detection, different from YOLOv1-YOLOv5 due to the difference in authorship, architecture, and model infrastructure. YOLOR stands for “You Only Learn One Representation”, not to be confused with YOLO versions 1 through 4, where YOLO stands for “You Only Look Once”
