@@ -84,6 +84,7 @@ Preprocess training and testing data
 
 GPU
 
-python detect.py --source inference/images/horses.jpg --cfg cfg/yolor_p6.cfg --weights yolor_p6.pt --conf 0.25 --img-size 1280 --device 0
+!python train.py --batch-size 8 --img 448 448 --data dataset.yaml --cfg cfg/yolor_p6.cfg --weights yolor_p6.pt --device 0 --name yolor_p6 --hyp hyp.scratch.1280.yaml --epochs 30
 
+!python detect.py --weights runs/train/yolor_p62/weights/best_overall.pt --conf 0.5 --source runs/train/test --names data data.names --cfg cfg/yolor_p6.cfg
 
