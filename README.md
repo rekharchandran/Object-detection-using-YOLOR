@@ -58,6 +58,15 @@ pip install -r requirements-gpu.txt
 
 #### Step3
 
+# Install Mish CUDA
+#!git clone https://github.com/JunnYu/mish-cuda
+%cd mish-cuda
+
+#### Step3
+
+Step 3 - Run on Images
+
+GPU
 
 python detect.py --source inference/images/horses.jpg --cfg cfg/yolor_p6.cfg --weights yolor_p6.pt --conf 0.25 --img-size 1280 --device 0
 
